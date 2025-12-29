@@ -52,21 +52,25 @@ public final class Pbuffer extends DrawableGL {
 	/**
 	 * Indicates that Pbuffers can be created.
 	 */
+	@java.lang.annotation.Native
 	public static final int PBUFFER_SUPPORTED = 1 << 0;
 
 	/**
 	 * Indicates that Pbuffers can be used as render-textures.
 	 */
+	@java.lang.annotation.Native
 	public static final int RENDER_TEXTURE_SUPPORTED = 1 << 1;
 
 	/**
 	 * Indicates that Pbuffers can be used as non-power-of-two render-textures.
 	 */
+	@java.lang.annotation.Native
 	public static final int RENDER_TEXTURE_RECTANGLE_SUPPORTED = 1 << 2;
 
 	/**
 	 * Indicates that Pbuffers can be used as depth render-textures.
 	 */
+	@java.lang.annotation.Native
 	public static final int RENDER_DEPTH_TEXTURE_SUPPORTED = 1 << 3;
 
 	/**
